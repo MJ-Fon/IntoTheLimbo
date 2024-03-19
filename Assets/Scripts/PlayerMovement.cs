@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
     private float dirX = 0f;
     [SerializeField] private float moveSpeed = 7f;
     [SerializeField]  private float jumpForce = 8f;
-
+    private float spiderWebSlowdownFactor = 1f;
     private enum MovementState { idle, running, jumping, falling }
     
 
@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
          dirX = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(dirX * moveSpeed, rb.velocity.y);
+        rb.velocity = new Vector2(dirX * moveSpeed * spiderWebSlowdownFactor, rb.velocity.y);
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x,jumpForce);
@@ -75,4 +75,15 @@ public class PlayerMovement : MonoBehaviour
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
 
     }
+
+    public void ApplySpiderWebSlowdown(float slowdownFactor)
+    {
+        spiderWebSlowdownFactor = slowdownFactor;
+    }
+
+    public void ResetSpiderWebSlowdown()
+    {
+        spiderWebSlowdownFactor = 1f; // Reset to default (no slowdown)
+    }
+
 }

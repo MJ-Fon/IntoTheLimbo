@@ -113,7 +113,7 @@ TextureImporter:
         width: 62
         height: 123
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,7 +134,7 @@ TextureImporter:
         width: 38
         height: 87
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,7 +155,7 @@ TextureImporter:
         width: 54
         height: 125
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,7 +176,7 @@ TextureImporter:
         width: 85
         height: 193
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -197,7 +197,7 @@ TextureImporter:
         width: 52
         height: 113
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -218,7 +218,7 @@ TextureImporter:
         width: 44
         height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -226,6 +226,27 @@ TextureImporter:
       bones: []
       spriteID: 96182ced310bfbc4facbee055fc2ab56
       internalID: 1153599320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '[removal.ai]_21b7a669-119b-48c3-9e30-224a6f17f72e-game-asset-semi-realistic-video-game-sprite-traps-npc-hooded-figure-old-hag-log-2d-metro-678685535_6'
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 77
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977de313d899fb94ab26b463ae4f9a6f
+      internalID: 1157857248
       vertices: []
       indices: 
       edges: []
@@ -247,6 +268,7 @@ TextureImporter:
       '[removal.ai]_21b7a669-119b-48c3-9e30-224a6f17f72e-game-asset-semi-realistic-video-game-sprite-traps-npc-hooded-figure-old-hag-log-2d-metro-678685535_3': -1721686699
       '[removal.ai]_21b7a669-119b-48c3-9e30-224a6f17f72e-game-asset-semi-realistic-video-game-sprite-traps-npc-hooded-figure-old-hag-log-2d-metro-678685535_4': -1140121374
       '[removal.ai]_21b7a669-119b-48c3-9e30-224a6f17f72e-game-asset-semi-realistic-video-game-sprite-traps-npc-hooded-figure-old-hag-log-2d-metro-678685535_5': 1153599320
+      '[removal.ai]_21b7a669-119b-48c3-9e30-224a6f17f72e-game-asset-semi-realistic-video-game-sprite-traps-npc-hooded-figure-old-hag-log-2d-metro-678685535_6': 1157857248
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
