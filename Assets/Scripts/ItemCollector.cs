@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class ItemCollector : MonoBehaviour
 {
-    private int bubbles = 0;
+    public static int bubbles = 0;
    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.CompareTag("Bubble")){
+            ScoreManager.scoreValue += 1;
             Destroy(collision.gameObject);
             bubbles++;
             Debug.Log("Bubbles: " + bubbles);
