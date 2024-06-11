@@ -693,7 +693,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -820,7 +820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1331816195}
-  background: {fileID: 8300000, guid: c85f22b512a7f534d8452bd0a39def59, type: 3}
+  background: {fileID: 8300000, guid: c19e6bf2f99608b4dab1eeb53781ddcb, type: 3}
 --- !u!4 &1886957129
 Transform:
   m_ObjectHideFlags: 0
